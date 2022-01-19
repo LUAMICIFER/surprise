@@ -4,7 +4,7 @@ mixer.init()
 mixer.music.load("E:\\20-01-2022\\abc.mp3")
 mixer.music.set_volume(0.7)
 mixer.music.play()
-a = "hello, I am ADVIK \ncan you tell me your name to proceed further.\n "
+a = "hello i am advik\ncan you tell me your name to proceed further\n"
 
 def typewriter(a):
     for char in a:
@@ -38,7 +38,7 @@ os.system("cls")
 typewriter(b)
 c = input()
 if (c== "yes"):
-	d = "ok then let's begin\nchalo ab text ko thoda lamba le jana hai is liye kewal type kiye ja rah eh taki song ka testing kar sake aaur koi baat nahi hai tumko jaisa klage waisa karna mai to wahi karunga jo test ke according sahi hoga"
+	d = "ok then let's begin\ntum opinion mangi thi na \n tum bahut acchi ho tumhara dunia dekhne ka jo najaria hai wo bahut accha sa hai positive attitude wala\nthodi emotional ho pr strong bhi bahut ho\nkabhi kabhi na itni innocent lagti ho n \naaur bahut care karti ho sbka\n jayda bore nahi karenge tumko baki sb dm kar denge\n ek chotu sa poem likhe hai dekhogi?"
 
 def typewriter(b):
     for char in b:
@@ -53,6 +53,23 @@ def typewriter(b):
 os.system("cls") #clear
 
 typewriter(d)
+e = input()
+if (e== "yes,of course"):
+	f = "meri sanso me is kadar samaya na kijea\nye dil hai nadan iski betabi yu badhaya na kijea\n\naapki text ki notification bechain kar deti hai mujhe\nyu hr pehar jehan me aaya na kijea\n\nkaan pr jo kala til hai kaphi hai meri madhosi ke liye\nphoto na bhej kar yu aashik pr kehar dhaya na kijea\n\nare kuch gurur to theek hai meri chand\nkabhi kabhi hamari baat bhi man jaya kijea\n\n"
+
+def typewriter(f):
+    for char in f:
+        sys.stdout.write(char)
+        sys.stdout.flush()
+
+        if char !="\n":
+            time.sleep(0.1)
+        else:
+            time.sleep(1)
+
+os.system("cls") #clear
+
+typewriter(f)
 mixer.music.stop()
 import turtle
 import time
@@ -341,7 +358,7 @@ turtle.title("ADVIKA")
 turtle.bgcolor("black")
 turtle.pensize(2)
 turtle.pencolor("red")
-turtle.speed(0.1)
+turtle.speed(0.5)
 
 factor = 20
 
@@ -352,3 +369,4 @@ for i in range(0,400):
     turtle.pendown()
 
 turtle.exitonclick()
+
