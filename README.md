@@ -1,7 +1,7 @@
 # surprise
-hello ye 20 01 2022 ka surprise wala link hai
-play karne ke liye
-cmd open karke neech ediye gaye command ko copy paste kar do 
+hello ye guide hai ek tarh se ki kaise code run karna hai 
+command prompt open karke 
+pip install pygame 
+command dalna hai 
+agar installation me koi problem ho to pygame isntallation wala video check out karna 
 
-pip install playsound==1.2.2
-pip install pygame
